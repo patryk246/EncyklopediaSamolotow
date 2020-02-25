@@ -1,7 +1,7 @@
 package com.example.prototyp4;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//mała zmiana, test github from
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
