@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Prototyp4</string>
+    <string name="app_name">Encyklopedia samolotów</string>
+    <string name="buttonPlanes">Samoloty</string>
+    <string name="buttonHelicopters">Helikoptery</string>
+    <string name="f22">Lockheed F-22 Raptor</string>
+    <string name="spad13">SPAD XIII</string>
+    <string name="b787">Boeing 787 Dreamliner</string>
+    <string name="cc2">Campini Caproni CC.2</string>
+    <string name="ho229">Horten Ho 229</string>
+    <string name="b29">Boeing B-29 Superfortress</string>
+    <string name="wz10">Changze WZ-10</string>
+    <string name="uh1">Bell UH-1 Iroquois</string>
+    <string name="mi24">Mi-24</string>
+    <string name="md500">McDonnell Douglas MD-500</string>
+    <string name="ah64">Boeing AH-64 Apache</string>
+    <string name="buttonShowModel">Pokaż model w rozszerzonej rzeczywistości</string>
 </resources>
