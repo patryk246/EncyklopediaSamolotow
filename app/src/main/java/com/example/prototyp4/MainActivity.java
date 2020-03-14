@@ -5,11 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.ar.core.Anchor;
@@ -70,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
             airplane.setRenderable(airplaneRenderable);
             airplane.select();
             });
+    }
+    public void backClicked(View v) {
+        startActivity(new Intent(MainActivity.this, activity_action.class));
+
     }
 
     public static boolean checkIsSupportedDeviceOrFinish(final Activity activity) {
