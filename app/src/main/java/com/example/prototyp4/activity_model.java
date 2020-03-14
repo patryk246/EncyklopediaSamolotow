@@ -19,5 +19,10 @@ public class activity_model extends AppCompatActivity {
         startActivity(new Intent(activity_model.this, MainActivity.class));
 
     }
+
+    public void nextClicked(View v) {
+        startActivity(new Intent(activity_model.this, activity_action.class));
+
+    }
 }
 

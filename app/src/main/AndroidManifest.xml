@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity_action"></activity>
         <activity android:name=".activity_model">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -29,12 +29,12 @@
             android:name="com.google.ar.core"
             android:value="required" />
     </application>
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
 
     <uses-feature
         android:name="android.hardware.camera.ar"
-        android:required="true" />
-    <uses-feature
-        android:glEsVersion="0x00030000"
         android:required="true" />
 
     <uses-permission android:name="android.permission.CAMERA" />
