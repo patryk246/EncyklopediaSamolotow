@@ -1,0 +1,165 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'MD-500',
+        },
+      ],
+      path: 'sampledata/MD-500.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'MD-500',
+        },
+      ],
+      path: 'sampledata/MD-500.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Helicopter_Material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'MD500-TXTR3',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Cockpit_Material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Cockpit_TXTR',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Glass_Material',
+      parameters: [
+        {
+          baseColor: [
+            0.40350000000000003,
+            0.46162500000000001,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/MD-500.fbx',
+    name: 'MD-500',
+    recenter: 'root',
+    scale: 0.20350699999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Cockpit_TXTR.png',
+      name: 'Cockpit_TXTR',
+      pipeline_name: 'MD-500.fbm\\Cockpit_TXTR.tif',
+    },
+    {
+      file: 'sampledata\\MD500-TXTR3.png',
+      name: 'MD500-TXTR3',
+      pipeline_name: 'MD-500.fbm\\MD500-TXTR3.tif',
+    },
+  ],
+  version: '0.54:2',
+}

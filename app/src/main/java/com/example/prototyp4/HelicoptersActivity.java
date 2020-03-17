@@ -35,8 +35,8 @@ public class HelicoptersActivity extends AppCompatActivity {
     }
 
     private void startActivityWithName(String name) {
-        Bundle bundle = new Bundle();
-        bundle.putString("name", name);
-        startActivity(new Intent(HelicoptersActivity.this, InfoActivity.class), bundle);
+        Intent intent = new Intent(HelicoptersActivity.this, InfoActivity.class);
+        intent.putExtra("name", name);
+        startActivity(intent);
     }
 }

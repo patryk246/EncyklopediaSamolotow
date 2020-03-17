@@ -12,11 +12,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.ar.core.Anchor;
 import com.google.ar.sceneform.AnchorNode;
+import com.google.ar.sceneform.animation.ModelAnimator;
 import com.google.ar.sceneform.math.Vector3;
+import com.google.ar.sceneform.rendering.AnimationData;
 import com.google.ar.sceneform.rendering.Color;
 import com.google.ar.sceneform.rendering.MaterialFactory;
 import com.google.ar.sceneform.rendering.ModelRenderable;
@@ -28,12 +31,16 @@ import com.google.ar.sceneform.ux.TransformableNode;
 public class MainActivity extends AppCompatActivity {
 
     private ModelRenderable airplaneRenderable;
+    private String name;
+    private ModelAnimator modelAnimator;
+    private Button animationButton;
+    private int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        name = getIntent().getExtras().getString("name");
         if (!checkIsSupportedDeviceOrFinish(this)) {
             return;
         }
@@ -41,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         ModelRenderable.builder()
                 // To load as an asset from the 'assets' folder ('src/main/assets/andy.sfb'):
-                .setSource(this, Uri.parse("PUSHILIN_Plane.sfb"))
+                .setSource(this, Uri.parse(name+".sfb"))
 
                 // Instead, load as a resource from the 'res/raw' folder ('src/main/res/raw/andy.sfb'):
                 //.setSource(this, R.raw.andy)
@@ -72,9 +79,27 @@ public class MainActivity extends AppCompatActivity {
             airplane.setRenderable(airplaneRenderable);
             airplane.select();
             });
+
+        animationButton = findViewById(R.id.button6);
+        animationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(modelAnimator!=null && modelAnimator.isRunning()){
+                    modelAnimator.end();
+                }
+                int animationCount = airplaneRenderable.getAnimationDataCount();
+                if(i==animationCount){
+                    i=0;
+                }
+                AnimationData animationData = airplaneRenderable.getAnimationData(i);
+                modelAnimator = new ModelAnimator(animationData, airplaneRenderable);
+                modelAnimator.start();
+                i++;
+            }
+        });
     }
     public void backClicked(View v) {
-        startActivity(new Intent(MainActivity.this, activity_action.class));
+        startActivity(new Intent(MainActivity.this, CategoryActivity.class));
 
     }
 

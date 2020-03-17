@@ -31,6 +31,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation "com.google.ar.sceneform.ux:sceneform-ux:1.12.0"
+    implementation "com.google.ar.sceneform:animation:1.12.0"
 }
 
 sceneform.asset('sampledata/PUSHILIN_Plane.obj', // 'Source Asset Path' specified during import.
@@ -38,3 +39,68 @@ sceneform.asset('sampledata/PUSHILIN_Plane.obj', // 'Source Asset Path' specifie
         'sampledata/PUSHILIN_Plane.sfa',         // '.sfa Output Path' specified during import.
         'src/main/assets/PUSHILIN_Plane.sfb')              // '.sfb Output Path' specified during import.
 
+sceneform.asset('sampledata/F22 Raptor.fbx',
+        'default',
+        'sampledata/F22 Raptor.sfa',
+        'src/main/assets/f22',
+        ['sampledata/F22 Raptor.fbx'])
+
+sceneform.asset('sampledata/Boeing 787 Dreamliner.fbx',
+        'default',
+        'sampledata/Boeing 787 Dreamliner.sfa',
+        'src/main/assets/b787',
+        ['sampledata/Boeing 787 Dreamliner.fbx'])
+
+sceneform.asset('sampledata/b-29_low_takeoff.fbx',
+        'default',
+        'sampledata/b-29_low_takeoff.sfa',
+        'src/main/assets/b29',
+        ['sampledata/b-29_low_takeoff.fbx'])
+
+sceneform.asset('sampledata/HO229_1.fbx',
+        'default',
+        'sampledata/HO229_1.sfa',
+        'src/main/assets/ho229',
+        ['sampledata/HO229_1.fbx'])
+
+sceneform.asset('sampledata/Campani_sketfab.fbx',
+        'default',
+        'sampledata/Campani_sketfab.sfa',
+        'src/main/assets/cc2',
+        ['sampledata/Campani_sketfab.fbx'])
+
+sceneform.asset('sampledata/Mi-24 Hind.fbx',
+        'default',
+        'sampledata/Mi-24 Hind.sfa',
+        'src/main/assets/mi24',
+        ['sampledata/Mi-24 Hind.fbx'])
+
+sceneform.asset('sampledata/Bell Huey.fbx',
+        'default',
+        'sampledata/Bell Huey.sfa',
+        'src/main/assets/uh1',
+        ['sampledata/Bell Huey.fbx'])
+
+sceneform.asset('sampledata/Gunship (2).fbx',
+        'default',
+        'sampledata/Gunship (2).sfa',
+        'src/main/assets/ah64',
+        ['sampledata/Gunship (2).fbx'])
+
+sceneform.asset('sampledata/MD-500.fbx',
+        'default',
+        'sampledata/MD-500.sfa',
+        'src/main/assets/md500',
+        ['sampledata/MD-500.fbx'])
+
+sceneform.asset('sampledata/WZ-10.fbx',
+        'default',
+        'sampledata/WZ-10.sfa',
+        'src/main/assets/wz10',
+        ['sampledata/WZ-10.fbx'])
+
+sceneform.asset('sampledata/export_sketchfab.fbx',
+        'default',
+        'sampledata/export_sketchfab.sfa',
+        'src/main/assets/spad13',
+        ['sampledata/export_sketchfab.fbx'])

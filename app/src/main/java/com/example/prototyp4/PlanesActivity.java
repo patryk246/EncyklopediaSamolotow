@@ -39,8 +39,8 @@ public class PlanesActivity extends AppCompatActivity {
     }
 
     private void startActivityWithName(String name) {
-        Bundle bundle = new Bundle();
-        bundle.putString("name", name);
-        startActivity(new Intent(PlanesActivity.this, InfoActivity.class), bundle);
+        Intent intent = new Intent(PlanesActivity.this, InfoActivity.class);
+        intent.putExtra("name", name);
+        startActivity(intent);
     }
 }

@@ -1,0 +1,127 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'Gunship (2)',
+        },
+      ],
+      path: 'sampledata/Gunship (2).fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'Gunship (2)',
+        },
+      ],
+      path: 'sampledata/Gunship (2).fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Gunship_material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '1K_GunshipTXTR',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Hellfire',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '512K_HellfireTXTR',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Gunship (2).fbx',
+    name: 'Gunship (2)',
+    recenter: 'root',
+    scale: 0.18010799999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\1K_GunshipTXTR.png',
+      name: '1K_GunshipTXTR',
+      pipeline_name: 'Gunship (2).fbm\\1K_GunshipTXTR.tif',
+    },
+    {
+      file: 'sampledata\\512K_HellfireTXTR.png',
+      name: '512K_HellfireTXTR',
+      pipeline_name: 'Gunship (2).fbm\\512K_HellfireTXTR.tif',
+    },
+  ],
+  version: '0.54:2',
+}

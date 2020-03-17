@@ -1,0 +1,241 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'CINEMA_4D_Main',
+        },
+      ],
+      path: 'sampledata/WZ-10.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'CINEMA_4D_Main',
+        },
+      ],
+      path: 'sampledata/WZ-10.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'glass',
+      parameters: [
+        {
+          baseColor: [
+            0.080000000000000002,
+            0.080000000000000002,
+            0.080000000000000002,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'VH_WZ_10_Base_1_INST',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'WZ_10_N_D',
+        },
+        {
+          normalMap: 'WZ_10_N_N',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'VH_WZ_10_Base_0_INST',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'WZ_1O_S_D',
+        },
+        {
+          normalMap: 'WZ_1O_S_N',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'wheel',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'WZ_1O_S_D',
+        },
+        {
+          normalMap: 'WZ_1O_S_N',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/WZ-10.fbx',
+    name: 'WZ-10',
+    recenter: 'root',
+    scale: 0.33290500000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_1O_S_N.jpg',
+      name: 'WZ_1O_S_N',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'WZ-10.fbm\\WZ_1O_S_N.jpg',
+    },
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_10_N_D.jpg',
+      name: 'WZ_10_N_D',
+      pipeline_name: 'WZ-10.fbm\\WZ_10_N_D.jpg',
+    },
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_1O_S_D.jpg',
+      name: 'WZ_1O_S_D',
+      pipeline_name: 'WZ-10.fbm\\WZ_1O_S_D.jpg',
+    },
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_10_N_N.jpg',
+      name: 'WZ_10_N_N',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'WZ-10.fbm\\WZ_10_N_N.jpg',
+    },
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_10_N_S.jpg',
+      name: 'WZ_10_N_S',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'WZ-10.fbm\\WZ_10_N_S.jpg',
+    },
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_1O_S_M.jpg',
+      name: 'WZ_1O_S_M',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'WZ-10.fbm\\WZ_1O_S_M.jpg',
+    },
+    {
+      file: 'sampledata\\WZ-10.fbm\\WZ_1O_S_S.jpg',
+      name: 'WZ_1O_S_S',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'WZ-10.fbm\\WZ_1O_S_S.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

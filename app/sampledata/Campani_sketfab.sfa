@@ -1,0 +1,272 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'C4D Animation Take',
+        },
+      ],
+      path: 'sampledata/Campani_sketfab.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'C4D Animation Take',
+        },
+      ],
+      path: 'sampledata/Campani_sketfab.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'body',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'body_Color',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'vidro',
+      parameters: [
+        {
+          baseColor: [
+            0.14285700000000001,
+            0.14285700000000001,
+            0.14285700000000001,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'flaps',
+      parameters: [
+        {
+          baseColor: [
+            0.34117599999999998,
+            0.34902,
+            0.35686299999999999,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'helice',
+      parameters: [
+        {
+          baseColor: [
+            0.153061,
+            0.153061,
+            0.153061,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'trem.pouso',
+      parameters: [
+        {
+          baseColor: [
+            0.90816300000000005,
+            0.90816300000000005,
+            0.90816300000000005,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'rodas',
+      parameters: [
+        {
+          baseColor: [
+            0.153061,
+            0.153061,
+            0.153061,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Campani_sketfab.fbx',
+    name: 'Campani_sketfab',
+    recenter: 'root',
+    scale: 0.38567499999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Campani_sketfab.fbm\\body_Color.jpg',
+      name: 'body_Color',
+      pipeline_name: 'Campani_sketfab.fbm\\body_Color.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

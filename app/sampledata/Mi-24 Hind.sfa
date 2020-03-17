@@ -1,0 +1,84 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'Mi-24 Hind',
+        },
+      ],
+      path: 'sampledata/Mi-24 Hind.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'Mi-24 Hind',
+        },
+      ],
+      path: 'sampledata/Mi-24 Hind.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'lambert1',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '2K_Mi24_TXTR',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Mi-24 Hind.fbx',
+    name: 'Mi-24 Hind',
+    recenter: 'root',
+    scale: 0.20158000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\2K_Mi24_TXTR.png',
+      name: '2K_Mi24_TXTR',
+      pipeline_name: 'Mi-24 Hind.fbm\\2K_Mi24_TXTR.tif',
+    },
+  ],
+  version: '0.54:2',
+}

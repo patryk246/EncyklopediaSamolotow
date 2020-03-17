@@ -1,0 +1,106 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Armature|1.002Action.002',
+        },
+        {
+          name: 'Armature|ArmatureAction',
+        },
+        {
+          name: 'Armature|ArmatureAction.001',
+        },
+        {
+          name: 'Armature|FinalAnim',
+        },
+        {
+          name: 'Armature|FLYING',
+        },
+      ],
+      path: 'sampledata/export_sketchfab.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Armature|1.002Action.002',
+        },
+        {
+          name: 'Armature|ArmatureAction',
+        },
+        {
+          name: 'Armature|ArmatureAction.001',
+        },
+        {
+          name: 'Armature|FinalAnim',
+        },
+        {
+          name: 'Armature|FLYING',
+        },
+      ],
+      path: 'sampledata/export_sketchfab.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'UV',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'GameArt_Plane_colourTex',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/export_sketchfab.fbx',
+    name: 'export_sketchfab',
+    recenter: 'root',
+    scale: 0.39367400000000002,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\GameArt_Plane_colourTex.jpg',
+      name: 'GameArt_Plane_colourTex',
+      pipeline_name: 'GameArt_Plane_colourTex.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
