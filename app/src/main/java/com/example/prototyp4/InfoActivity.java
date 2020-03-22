@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 public class InfoActivity extends AppCompatActivity {
 
+    private DatabaseHelper DbHelper;
+
     private String name;
     private TextView textView_name;
     private ImageView image;
@@ -18,9 +20,12 @@ public class InfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
+        DbHelper = new DatabaseHelper(this);
+
         textView_name = findViewById(R.id.textView_name);
         image = findViewById(R.id.imageView);
         name = getIntent().getExtras().getString("name");
+
         //samoloty
         if(name.equals("b787")){
             textView_name.setText("Boeing 787 Dreamliner");

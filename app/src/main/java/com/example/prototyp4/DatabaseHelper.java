@@ -2,6 +2,7 @@ package com.example.prototyp4;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -10,10 +11,9 @@ import androidx.annotation.Nullable;
 
 public class DatabaseHelper extends SQLiteOpenHelper{
 
-    public DatabaseHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+    public DatabaseHelper(Context context) {
         super(context, DatabaseContract.DATABASE_NAME, null, DatabaseContract.DATABASE_VERSION);
     }
-
     @Override
     public void onCreate(SQLiteDatabase db) {
        db.execSQL(DatabaseContract.TempHistory.CREATE_TABLE);
@@ -23,6 +23,18 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL(DatabaseContract.TempHistory.DELETE_TABLE);
         onCreate(db);
+    }
+
+    public Cursor getDescription(String name){
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery("SELECT _ID,"
+                +DatabaseContract.TempHistory.COLUMN_NAME_NAME+", "
+                +DatabaseContract.TempHistory.COLUMN_NAME_CATEGORY+", "
+                +DatabaseContract.TempHistory.COLUMN_NAME_DESCRIPTION+" FROM "
+                +DatabaseContract.TempHistory.TABLE_NAME+" WHERE "
+                +DatabaseContract.TempHistory.COLUMN_NAME_NAME+"="
+                +name, null);
+        return cursor;
     }
 
     public long addData(String name, String category, String description){
