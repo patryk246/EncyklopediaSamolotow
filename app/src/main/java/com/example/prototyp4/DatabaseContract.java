@@ -6,7 +6,7 @@ public class DatabaseContract {
     public DatabaseContract() {
 
     }
-        public static final int DATABASE_VERSION = 1;
+        public static final int DATABASE_VERSION = 5;
         public static final String DATABASE_NAME = "encyklopedia.db";
         private static final String TEXT_TYPE = " TEXT";
         private static final String COMMA_SEP = ",";

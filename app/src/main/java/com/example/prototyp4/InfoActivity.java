@@ -3,6 +3,7 @@ package com.example.prototyp4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,10 +11,10 @@ import android.widget.TextView;
 
 public class InfoActivity extends AppCompatActivity {
 
-    private DatabaseHelper DbHelper;
+    DatabaseHelper DbHelper;
 
     private String name;
-    private TextView textView_name;
+    private TextView textView_name, textView_info;
     private ImageView image;
 
     @Override
@@ -21,8 +22,8 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
         DbHelper = new DatabaseHelper(this);
-
         textView_name = findViewById(R.id.textView_name);
+        textView_info = findViewById(R.id.textView_info);
         image = findViewById(R.id.imageView);
         name = getIntent().getExtras().getString("name");
 
@@ -30,7 +31,11 @@ public class InfoActivity extends AppCompatActivity {
         if(name.equals("b787")){
             textView_name.setText("Boeing 787 Dreamliner");
             image.setImageResource(R.drawable.b787);
-            //sql query
+            String text = "text";
+
+
+            text = DbHelper.getInfo(name);
+            textView_info.setText(text);
         }
         if(name.equals("b29")) {
             textView_name.setText("Boeing b-29 Superfortress");
