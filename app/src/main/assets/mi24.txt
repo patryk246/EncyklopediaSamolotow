@@ -1,5 +1,7 @@
-Mi-24 (ros. Ми-24) (oznaczenie NATO Hind) – ciężki śmigłowiec bojowy opracowany w Związku Radzieckim przez biuro konstrukcyjne Michaiła Mila, produkowany zaś w zakładach lotniczych w
-Arseniewie i Rostowie. Mi-24 jest śmigłowcem z przełomu lat 60. i 70. XX wieku. Jego cechą charakterystyczną jest możliwość przewozu ośmiu żołnierzy w części transportowej, dlatego też Mi-24 nie ma
-bezpośredniego odpowiednika na Zachodzie, rolę śmigłowców bojowych bowiem odgrywały tam lekkie maszyny AH-1 Cobra przeznaczone głównie do zwalczania celów opancerzonych. Pewne
-cechy wspólne można znaleźć w amerykańskim prototypowym ciężkim śmigłowcu szturmowym S-67 Blackhawk (wyposażony w kabinę ładunkową podobnie jak Mi-24) lub w szturmowym wariancie
-śmigłowca transportowego UH-60 Black Hawk wyposażonym w wysięgniki do przenoszenia uzbrojenia.
+Mi-24 (ros. Ми-24) (oznaczenie NATO Hind) – ciężki śmigłowiec bojowy opracowany w Związku Radzieckim przez biuro konstrukcyjne Michaiła Mila, produkowany zaś w zakładach lotniczych w Arseniewie i Rostowie.
+
+Mi-24 jest śmigłowcem z przełomu lat 60. i 70. XX wieku. Jego cechą charakterystyczną jest możliwość przewozu ośmiu żołnierzy w części transportowej, dlatego też Mi-24 nie ma bezpośredniego odpowiednika na Zachodzie, rolę śmigłowców bojowych bowiem odgrywały tam lekkie maszyny AH-1 Cobra przeznaczone głównie do zwalczania celów opancerzonych. Pewne cechy wspólne można znaleźć w amerykańskim prototypowym ciężkim śmigłowcu szturmowym S-67 Blackhawk (wyposażony w kabinę ładunkową podobnie jak Mi-24) lub w szturmowym wariancie śmigłowca transportowego UH-60 Black Hawk wyposażonym w wysięgniki do przenoszenia uzbrojenia.
+
+Śmigłowce z rodziny Mi-24/Mi-35 używane są do dzisiaj przez ponad 50 państw. Ponadto w oparciu o ten śmigłowiec na przełomie XX i XXI wieku powstały dalekie modernizacje: Mi-35M i Mi-24 Super Hind.
+
+Śmigłowiec Mi-24D jest ciężkim śmigłowcem bojowym w układzie klasycznym z pięciołopatowym wirnikiem głównym i trójłopatowym śmigłem ogonowym oraz niewielkimi skrzydłami pomocniczymi. Jest to śmigłowiec o specyficznej konstrukcji: może być wykorzystywany jako maszyna szturmowa, transportowa, a także sanitarna. Konstrukcja śmigłowca jest całkowicie metalowa. Zastosowano: duraluminium, blachę tytanową, stopy magnezowe, stopy aluminiowe i wysokowytrzymałe stale.

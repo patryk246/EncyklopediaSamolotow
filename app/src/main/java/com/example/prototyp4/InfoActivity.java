@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -29,6 +30,8 @@ public class InfoActivity extends AppCompatActivity {
         textView_info = findViewById(R.id.textView_info);
         image = findViewById(R.id.imageView);
         name = getIntent().getExtras().getString("name");
+
+        textView_info.setMovementMethod(new ScrollingMovementMethod());
 
         //samoloty
         if(name.equals("b787")){

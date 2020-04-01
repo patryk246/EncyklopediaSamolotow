@@ -1,8 +1,5 @@
-Horten Ho 229 (znany także pod oznaczeniem Horten Ho IX i Gotha Go 229) – stalowo-drewniany szturmowy/bombowy
-samolot niemiecki typu latające skrzydło wyprodukowany w styczniu 1945 przez Gothaer Waggonfabrik AG,
-zaprojektowany przez braci Horten na podstawie ich wcześniejszego prototypu z późnych lat 30. XX wieku.
-Samolot ten stworzono dla Luftwaffe w końcowym okresie II wojny światowej. Wyposażony był w dwa silniki odrzutowe.
-Samolot zdołano wyprodukować i oblatać wstępnie dopiero w styczniu 1945. Wyposażony w dwa działka 30 mm, mógł być
-używany jako samolot myśliwski, ponieważ jego osiągi teoretycznie przewyższały wszystkie samoloty alianckie.
-Jednak był to raczej pierwszy projekt Göringa z cyklu tzw. 3x1000: samolot szturmowy, bombowy o zasięgu ponad 1000
-km, prędkości do 1000 km/h i nośności do 1000 kg uzbrojenia w postaci bomb lub rakiet.
+Horten Ho 229 (znany także pod oznaczeniem Horten Ho IX i Gotha Go 229) – stalowo-drewniany szturmowy/bombowy samolot niemiecki typu latające skrzydło wyprodukowany w styczniu 1945 przez Gothaer Waggonfabrik AG, zaprojektowany przez braci Horten na podstawie ich wcześniejszego prototypu z późnych lat 30. XX wieku. Samolot ten stworzono dla Luftwaffe w końcowym okresie II wojny światowej. Wyposażony był w dwa silniki odrzutowe. Samolot zdołano wyprodukować i oblatać wstępnie dopiero w styczniu 1945. Wyposażony w dwa działka 30 mm, mógł być używany jako samolot myśliwski, ponieważ jego osiągi teoretycznie przewyższały wszystkie samoloty alianckie. Jednak był to raczej pierwszy projekt Göringa z cyklu tzw. 3x1000: samolot szturmowy, bombowy o zasięgu ponad 1000 km, prędkości do 1000 km/h i nośności do 1000 kg uzbrojenia w postaci bomb lub rakiet.
+
+Był pierwszym na świecie odrzutowym samolotem o konstrukcji latającego skrzydła. Wykonana w firmie Northrop Grumman w latach 2008–2009 pełnowymiarowa, nielatająca rekonstrukcja oraz testy elektromagnetyczne na tajnym poligonie fabrycznym Northrop wykazały, że samolot Ho 229 w 1945 byłby wykrywalny przez angielską stację radarową wczesnego wykrywania Chain Home, w odległości równej 80% odległości wykrywania myśliwca Bf-110, czyli w odległości 130 km, zamiast 160 km. Z uwagi na różnice w rozpiętości obu dolnopłatów, Ho 229 wykazał się 40-procentową powierzchnią skutecznego odbicia w porównaniu z typowym myśliwcem II wojny światowej, stanowiąc pierwszy statek powietrzny wykonany w technologii stealth. Rekonstrukcję i jej osiągi przedstawiono latem 2009 r. w filmie dokumentalnym produkcji National Geographic.
+
+Podczas końcowych walk w Niemczech w 1945 r. wywiad amerykański przechwycił dwa pokrewne egzemplarze (Ho 229 V3 w trakcie montowania oraz starszy model – bezsilnikowy szybowiec Horten Ho IX V1).
