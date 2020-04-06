@@ -18,9 +18,7 @@ public class PlanesActivity extends AppCompatActivity {
         startActivityWithName("b787");
     }
 
-    public void b29Clicked(View view) {
-        startActivityWithName("b29");
-    }
+    //public void b29Clicked(View view) { startActivityWithName("b29"); }
 
     public void cc2Clicked(View view) {
         startActivityWithName("cc2");
