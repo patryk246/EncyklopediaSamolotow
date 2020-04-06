@@ -46,15 +46,16 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonB29" />
 
     <Button
-        android:id="@+id/buttonHo229"
+        android:id="@+id/buttonAn24"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/ho229"
-        android:onClick="ho229Clicked"
+        android:onClick="an24Clicked"
+        android:text="@string/an24"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCC2" />
 
@@ -69,7 +70,7 @@
         android:onClick="f22Clicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonHo229" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonAn24" />
 
     <Button
         android:id="@+id/buttonSpad13"

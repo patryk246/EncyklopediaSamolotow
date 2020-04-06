@@ -49,10 +49,10 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.cc2);
             textView_info.setText(getInfo("c22.txt"));
         }
-        if(name.equals("ho229")){
-            textView_name.setText("Horten HO 229");
-            image.setImageResource(R.drawable.ho229);
-            textView_info.setText(getInfo("ho229.txt"));
+        if(name.equals("an24")){
+            textView_name.setText("Antonov An-24");
+            image.setImageResource(R.drawable.an24);
+            textView_info.setText(getInfo("an24.txt"));
         }
         if(name.equals("f22")){
             textView_name.setText("Lockheed F-22 Raptor");

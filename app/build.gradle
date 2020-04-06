@@ -52,11 +52,11 @@ sceneform.asset('sampledata/b-29_low_takeoff.fbx',
         'src/main/assets/b29',
         ['sampledata/b-29_low_takeoff.fbx'])
 
-sceneform.asset('sampledata/HO229_1.fbx',
+sceneform.asset('sampledata/AN-24PB_FBX.fbx',
         'default',
-        'sampledata/HO229_1.sfa',
-        'src/main/assets/ho229',
-        ['sampledata/HO229_1.fbx'])
+        'sampledata/AN-24PB_FBX.sfa',
+        'src/main/assets/an24',
+        ['sampledata/AN-24PB_FBX.fbx'])
 
 sceneform.asset('sampledata/Campani_sketfab.fbx',
         'default',
