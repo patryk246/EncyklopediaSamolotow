@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void backClicked(View v) {
-        startActivity(new Intent(MainActivity.this, CategoryActivity.class));
+        finish();
 
     }
 
