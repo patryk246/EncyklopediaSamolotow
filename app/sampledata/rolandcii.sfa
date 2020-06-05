@@ -1,0 +1,84 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'rolandcii',
+        },
+      ],
+      path: 'sampledata/rolandcii.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'rolandcii',
+        },
+      ],
+      path: 'sampledata/rolandcii.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #30',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Caestecker_Kobie_GameArtPlane_colorTex',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/rolandcii.fbx',
+    name: 'rolandcii',
+    recenter: 'root',
+    scale: 0.22895299999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\rolandcii.fbm\\Caestecker_Kobie_GameArtPlane_colorTex.jpg',
+      name: 'Caestecker_Kobie_GameArtPlane_colorTex',
+      pipeline_name: 'rolandcii.fbm\\Caestecker_Kobie_GameArtPlane_colorTex.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

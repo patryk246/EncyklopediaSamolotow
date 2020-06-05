@@ -99,3 +99,132 @@ sceneform.asset('sampledata/export_sketchfab.fbx',
         'sampledata/export_sketchfab.sfa',
         'src/main/assets/spad13',
         ['sampledata/export_sketchfab.fbx'])
+
+// Modele wybrakowane
+
+sceneform.asset('sampledata/Biplane.fbx',
+        'default',
+        'sampledata/Biplane.sfa',
+        'src/main/assets/martin244',
+        ['sampledata/Biplane.fbx'])
+
+sceneform.asset('sampledata/cargo aircraft.fbx',
+        'default',
+        'sampledata/cargo aircraft.sfa',
+        'src/main/assets/cargoAircraft',
+        ['sampledata/cargo aircraft.fbx'])
+
+sceneform.asset('sampledata/e58_short.fbx',
+        'default',
+        'sampledata/e58_short.sfa',
+        'src/main/assets/jakisMysliwiec',
+        ['sampledata/e58_short.fbx'])
+
+sceneform.asset('sampledata/Antonov225.fbx',
+        'default',
+        'sampledata/Antonov225.sfa',
+        'src/main/assets/antonov225',
+        ['sampledata/Antonov225.fbx'])
+
+sceneform.asset('sampledata/gulfstream.fbx',
+        'default',
+        'sampledata/gulfstream.sfa',
+        'src/main/assets/gulfstream',
+        ['sampledata/gulfstream.fbx'])
+
+sceneform.asset('sampledata/airplane.fbx',
+        'default',
+        'sampledata/airplane.sfa',
+        'src/main/assets/fokkerDr1',
+        ['sampledata/airplane.fbx'])
+
+sceneform.asset('sampledata/plane.fbx',
+        'default',
+        'sampledata/plane.sfa',
+        'src/main/assets/fe2b',
+        ['sampledata/plane.fbx'])
+
+sceneform.asset('sampledata/Moldovan_Alexia_GameArtPlane.fbx',
+        'default',
+        'sampledata/Moldovan_Alexia_GameArtPlane.sfa',
+        'src/main/assets/aeg_g4',
+        ['sampledata/Moldovan_Alexia_GameArtPlane.fbx'])
+
+sceneform.asset('sampledata/32058 Jeannin Stahltaube.fbx',
+        'default',
+        'sampledata/32058 Jeannin Stahltaube.sfa',
+        'src/main/assets/32058jeanninStahltaube',
+        ['sampledata/32058 Jeannin Stahltaube.fbx'])
+
+
+sceneform.asset('sampledata/planeplane.fbx',
+        'default',
+        'sampledata/planeplane.sfa',
+        'src/main/assets/spadxvi',
+        ['sampledata/planeplane.fbx'])
+
+sceneform.asset('sampledata/gothag1.fbx',
+        'default',
+        'sampledata/gothag1.sfa',
+        'src/main/assets/gothag1',
+        ['sampledata/gothag1.fbx'])
+
+sceneform.asset('sampledata/rolandcii.fbx',
+        'default',
+        'sampledata/rolandcii.sfa',
+        'src/main/assets/rolandcii',
+        ['sampledata/rolandcii.fbx'])
+
+sceneform.asset('sampledata/capronica5.fbx',
+        'default',
+        'sampledata/capronica5.sfa',
+        'src/main/assets/capronica5',
+        ['sampledata/capronica5.fbx'])
+
+sceneform.asset('sampledata/bristolf2b.fbx',
+        'default',
+        'sampledata/bristolf2b.sfa',
+        'src/main/assets/bristolf2b',
+        ['sampledata/bristolf2b.fbx'])
+
+sceneform.asset('sampledata/concorde.fbx',
+        'default',
+        'sampledata/concorde.sfa',
+        'src/main/assets/concorde',
+        ['sampledata/concorde.fbx'])
+
+sceneform.asset('sampledata/mig15_gear.fbx',
+        'default',
+        'sampledata/mig15_gear.sfa',
+        'src/main/assets/mig15_gear',
+        ['sampledata/mig15_gear.fbx'])
+
+sceneform.asset('sampledata/sopwith3.fbx',
+        'default',
+        'sampledata/sopwith3.sfa',
+        'src/main/assets/sopwith3',
+        ['sampledata/sopwith3.fbx'])
+
+sceneform.asset('sampledata/M-48 Strike Drone.fbx',
+        'default',
+        'sampledata/M-48 Strike Drone.sfa',
+        'src/main/assets/junkers197',
+        ['sampledata/M-48 Strike Drone.fbx'])
+
+sceneform.asset('sampledata/spitfire.fbx',
+        'default',
+        'sampledata/spitfire.sfa',
+        'src/main/assets/supermarineSpitfire',
+        ['sampledata/spitfire.fbx'])
+
+sceneform.asset('sampledata/a10.fbx',
+        'default',
+        'sampledata/a10.sfa',
+        'src/main/assets/a10thunderbolt',
+        ['sampledata/a10.fbx'])
+
+sceneform.asset('sampledata/BomberEdited1105.fbx',
+        'default',
+        'sampledata/BomberEdited1105.sfa',
+        'src/main/assets/b17bomber',
+        ['sampledata/BomberEdited1105.fbx'])

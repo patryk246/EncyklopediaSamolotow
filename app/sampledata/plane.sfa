@@ -1,0 +1,72 @@
+{
+  animations: [
+    {
+      path: 'sampledata/plane.fbx',
+    },
+    {
+      path: 'sampledata/plane.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #27',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Van_Parys_Lahiru_GameArtPlane_colorTex',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/plane.fbx',
+    name: 'plane',
+    recenter: 'root',
+    scale: 0.57676099999999997,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\plane.fbm\\Van_Parys_Lahiru_GameArtPlane_colorTex.jpg',
+      name: 'Van_Parys_Lahiru_GameArtPlane_colorTex',
+      pipeline_name: 'plane.fbm\\Van_Parys_Lahiru_GameArtPlane_colorTex.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

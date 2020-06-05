@@ -1,0 +1,71 @@
+{
+  animations: [
+    {
+      path: 'sampledata/bristolf2b.fbx',
+    },
+    {
+      path: 'sampledata/bristolf2b.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #44',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Plane Texture',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/bristolf2b.fbx',
+    name: 'bristolf2b',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\bristolf2b.fbm\\Plane Texture.jpg',
+      name: 'Plane Texture',
+      pipeline_name: 'bristolf2b.fbm\\Plane Texture.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

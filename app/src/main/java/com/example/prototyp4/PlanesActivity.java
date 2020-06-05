@@ -41,4 +41,6 @@ public class PlanesActivity extends AppCompatActivity {
         intent.putExtra("name", name);
         startActivity(intent);
     }
+
+    public void testClicked(View view) { startActivityWithName(""); }
 }

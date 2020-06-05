@@ -1,0 +1,83 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'gothag1',
+        },
+      ],
+      path: 'sampledata/gothag1.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'gothag1',
+        },
+      ],
+      path: 'sampledata/gothag1.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #2',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Plane_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/gothag1.fbx',
+    name: 'gothag1',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Plane_diffuse.png',
+      name: 'Plane_diffuse',
+      pipeline_name: 'gothag1.fbm\\Plane diffuse.psd',
+    },
+  ],
+  version: '0.54:2',
+}

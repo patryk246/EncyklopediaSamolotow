@@ -1,0 +1,84 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'airplane',
+        },
+      ],
+      path: 'sampledata/airplane.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'airplane',
+        },
+      ],
+      path: 'sampledata/airplane.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #32',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: "D'haene_Watse_GameArtPlane_colorTex",
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/airplane.fbx',
+    name: 'airplane',
+    recenter: 'root',
+    scale: 0.61926999999999999,
+  },
+  samplers: [
+    {
+      file: "sampledata\\airplane.fbm\\D'haene_Watse_GameArtPlane_colorTex.jpg",
+      name: "D'haene_Watse_GameArtPlane_colorTex",
+      pipeline_name: "airplane.fbm\\D'haene_Watse_GameArtPlane_colorTex.jpg",
+    },
+  ],
+  version: '0.54:2',
+}

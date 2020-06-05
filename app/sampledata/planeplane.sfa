@@ -1,0 +1,72 @@
+{
+  animations: [
+    {
+      path: 'sampledata/planeplane.fbx',
+    },
+    {
+      path: 'sampledata/planeplane.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: '04 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Verstappen_Evie_GameArtPlane_colorTex',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/planeplane.fbx',
+    name: 'planeplane',
+    recenter: 'root',
+    scale: 0.33540900000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\planeplane.fbm\\Verstappen_Evie_GameArtPlane_colorTex.jpg',
+      name: 'Verstappen_Evie_GameArtPlane_colorTex',
+      pipeline_name: 'planeplane.fbm\\Verstappen_Evie_GameArtPlane_colorTex.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

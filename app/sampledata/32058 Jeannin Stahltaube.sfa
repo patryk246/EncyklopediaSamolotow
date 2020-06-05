@@ -1,0 +1,72 @@
+{
+  animations: [
+    {
+      path: 'sampledata/32058 Jeannin Stahltaube.fbx',
+    },
+    {
+      path: 'sampledata/32058 Jeannin Stahltaube.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #38',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Mooney_Garrett_GameArtPlane_colorTex',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/32058 Jeannin Stahltaube.fbx',
+    name: '32058 Jeannin Stahltaube',
+    recenter: 'root',
+    scale: 0.86051500000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\32058 Jeannin Stahltaube.fbm\\Mooney_Garrett_GameArtPlane_colorTex.jpg',
+      name: 'Mooney_Garrett_GameArtPlane_colorTex',
+      pipeline_name: '32058 Jeannin Stahltaube.fbm\\Mooney_Garrett_GameArtPlane_colorTex.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,72 @@
+{
+  animations: [
+    {
+      path: 'sampledata/Moldovan_Alexia_GameArtPlane.fbx',
+    },
+    {
+      path: 'sampledata/Moldovan_Alexia_GameArtPlane.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'T_Plane',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Moldovan_Alexia_GameArtPlane_colorTex',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Moldovan_Alexia_GameArtPlane.fbx',
+    name: 'Moldovan_Alexia_GameArtPlane',
+    recenter: 'root',
+    scale: 0.14410800000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Moldovan_Alexia_GameArtPlane.fbm\\Moldovan_Alexia_GameArtPlane_colorTex.jpg',
+      name: 'Moldovan_Alexia_GameArtPlane_colorTex',
+      pipeline_name: 'Moldovan_Alexia_GameArtPlane.fbm\\Moldovan_Alexia_GameArtPlane_colorTex.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

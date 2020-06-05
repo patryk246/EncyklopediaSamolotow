@@ -1,0 +1,71 @@
+{
+  animations: [
+    {
+      path: 'sampledata/capronica5.fbx',
+    },
+    {
+      path: 'sampledata/capronica5.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #2',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'T_CaproniCA05_D',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/capronica5.fbx',
+    name: 'capronica5',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\capronica5.fbm\\T_CaproniCA05_D.jpg',
+      name: 'T_CaproniCA05_D',
+      pipeline_name: 'capronica5.fbm\\T_CaproniCA05_D.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
