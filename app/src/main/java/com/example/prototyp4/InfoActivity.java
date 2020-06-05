@@ -29,6 +29,8 @@ public class InfoActivity extends AppCompatActivity {
         textView_name = findViewById(R.id.textView_name);
         textView_info = findViewById(R.id.textView_info);
         image = findViewById(R.id.imageView);
+
+
         name = getIntent().getExtras().getString("name");
 
         textView_info.setMovementMethod(new ScrollingMovementMethod());
@@ -92,6 +94,7 @@ public class InfoActivity extends AppCompatActivity {
         }
 
     }
+
     public String getInfo(String name){
         String text = "";
         try {
@@ -101,11 +104,9 @@ public class InfoActivity extends AppCompatActivity {
             stream.read(buffer);
             stream.close();
             text = new String(buffer);
-
         }catch (IOException e){
             return e.toString();
         }
-
         return text;
     }
 
