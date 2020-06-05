@@ -103,6 +103,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void helpClicked(View view) {
+        startActivity(new Intent(MainActivity.this, HelpActivity.class));
+    }
+
     public static boolean checkIsSupportedDeviceOrFinish(final Activity activity) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
             Toast.makeText(activity, "Sceneform requires Android N or later", Toast.LENGTH_LONG).show();

@@ -14,4 +14,10 @@
     <string name="md500">McDonnell Douglas MD-500</string>
     <string name="ah64">Boeing AH-64 Apache</string>
     <string name="buttonShowModel">Pokaż model w rozszerzonej rzeczywistości</string>
+    <string name="help">Instrukcja</string>
+    <string name="tap">Poruszaj telefonem, aż wykryje płaską powierzchnię. Gdy zobaczysz białe kropki dotknij ich, aby w tym miejscu pojawił się model.</string>
+    <string name="move">Dotknij ekranu jednym palcem i przeciągnij, aby przesunąć model.</string>
+    <string name="zoom_out">Zsuń dwa palce, aby zmniejszyć model.</string>
+    <string name="zoom_in">Rozsuń dwa palce, aby powiększyć model.</string>
+    <string name="rotate">Obróć dwa palce, aby obrócić model.</string>
 </resources>
