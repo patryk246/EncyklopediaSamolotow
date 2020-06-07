@@ -7,9 +7,21 @@
     tools:context=".PlanesActivity">
 
     <Button
-        android:id="@+id/buttonF16"
+        android:id="@+id/buttonGulfstream"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="gulfstreamClicked"
+        android:text="Gulfstream"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonF16"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMartin244" />
+
+    <Button
+        android:id="@+id/buttonF16"
+        android:layout_width="157dp"
+        android:layout_height="46dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:onClick="f16Clicked"
@@ -17,25 +29,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMartin244" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMig15" />
 
     <Button
         android:id="@+id/buttonMartin244"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
-        android:layout_marginStart="32dp"
         android:onClick="martin244Clicked"
         android:text="Martin 244"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMig15" />
+        app:layout_constraintStart_toEndOf="@+id/buttonMig15"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSopwith" />
 
     <Button
         android:id="@+id/buttonMig15"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="158dp"
+        android:layout_height="47dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:onClick="mig15Clicked"
@@ -47,12 +58,10 @@
 
     <Button
         android:id="@+id/buttonSopwith"
-        android:layout_width="189dp"
+        android:layout_width="191dp"
         android:layout_height="57dp"
         android:onClick="sopwithClicked"
         android:text="Sopwith"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
         app:layout_constraintTop_toBottomOf="@+id/buttonSpad11" />
 
@@ -98,11 +107,11 @@
         android:id="@+id/buttonB787"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/b787"
         android:onClick="b787Clicked"
+        android:text="@string/b787"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

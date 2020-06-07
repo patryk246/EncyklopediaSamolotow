@@ -132,6 +132,11 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.f16);
             textView_info.setText(getInfo("jakisMysliwiec.txt"));
         }
+        if(name.equals("gulfstream")){
+            textView_name.setText("Gulfstream G550");
+            image.setImageResource(R.drawable.gulfstream);
+            textView_info.setText(getInfo("gulfstream.txt"));
+        }
 
     }
 
