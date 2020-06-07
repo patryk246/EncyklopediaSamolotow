@@ -3,7 +3,6 @@ package com.example.prototyp4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
@@ -70,6 +69,11 @@ public class InfoActivity extends AppCompatActivity {
             textView_name.setText("Taube");
             image.setImageResource(R.drawable.taube);
             textView_info.setText(getInfo("taube.txt"));
+        }
+        if(name.equals("spitfire")){
+            textView_name.setText("Supermarine Spitfire");
+            image.setImageResource(R.drawable.spitfire);
+            textView_info.setText(getInfo("spitfire.txt"));
         }
 
         //helikoptery
