@@ -7,6 +7,30 @@
     tools:context=".PlanesActivity">
 
     <Button
+        android:id="@+id/buttonFokker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="fokkerDr1Clicked"
+        android:text="Fokker DR. 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonGothag"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGulfstream" />
+
+    <Button
+        android:id="@+id/buttonConcorde"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="concordeClicked"
+        android:text="Concorde"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonFe2b"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFokker" />
+
+    <Button
         android:id="@+id/buttonFe2b"
         android:layout_width="157dp"
         android:layout_height="46dp"
@@ -31,18 +55,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonF16" />
-
-    <Button
-        android:id="@+id/buttonFokkerDr1"
-        android:layout_width="185dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="32dp"
-        android:onClick="fokkerDr1Clicked"
-        android:text="Fokker Dr. 1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/buttonGothag"
-        app:layout_constraintTop_toBottomOf="@+id/buttonGulfstream" />
 
     <Button
         android:id="@+id/buttonGulfstream"
@@ -95,15 +107,6 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonSpitfire" />
 
     <Button
-        android:id="@+id/buttonSopwith"
-        android:layout_width="191dp"
-        android:layout_height="57dp"
-        android:onClick="sopwithClicked"
-        android:text="Sopwith"
-        app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSpad11" />
-
-    <Button
         android:id="@+id/buttonSpad11"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -114,6 +117,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
         app:layout_constraintTop_toBottomOf="@+id/buttonRolandcii" />
+
+    <Button
+        android:id="@+id/buttonSopwith"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="4dp"
+        android:onClick="sopwithClicked"
+        android:text="Sopwith"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpad11" />
 
     <Button
         android:id="@+id/buttonSpitfire"

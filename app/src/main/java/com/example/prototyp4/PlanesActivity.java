@@ -66,4 +66,6 @@ public class PlanesActivity extends AppCompatActivity {
 
     public void fe2bClicked(View view){ startActivityWithName("fe2b");}
 
+    public void concordeClicked(View view){ startActivityWithName("concorde");}
+
 }
