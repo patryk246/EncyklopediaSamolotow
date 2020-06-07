@@ -62,4 +62,6 @@ public class PlanesActivity extends AppCompatActivity {
 
     public void gothag1Clicked(View view){ startActivityWithName("gothag1");}
 
+    public void fokkerDr1Clicked(View view){ startActivityWithName("fokkerDr1");}
+
 }
