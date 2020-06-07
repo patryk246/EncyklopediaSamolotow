@@ -66,6 +66,12 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.spad13);
             textView_info.setText(getInfo("spad13.txt"));
         }
+        if(name.equals("taube")){
+            textView_name.setText("Taube");
+            image.setImageResource(R.drawable.taube);
+            textView_info.setText(getInfo("taube.txt"));
+        }
+
         //helikoptery
         if(name.equals("uh1")){
             textView_name.setText("Bell UH-1 Iroquodis");
