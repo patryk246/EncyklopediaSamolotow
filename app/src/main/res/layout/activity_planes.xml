@@ -7,6 +7,19 @@
     tools:context=".PlanesActivity">
 
     <Button
+        android:id="@+id/buttonFe2b"
+        android:layout_width="157dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:onClick="fe2bClicked"
+        android:text="FE 2b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGothag" />
+
+    <Button
         android:id="@+id/buttonGothag"
         android:layout_width="157dp"
         android:layout_height="46dp"
