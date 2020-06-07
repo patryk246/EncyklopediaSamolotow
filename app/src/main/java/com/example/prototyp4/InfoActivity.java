@@ -127,6 +127,11 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.mi24);
             textView_info.setText(getInfo("mi24.txt"));
         }
+        if(name.equals("jakisMysliwiec")){
+            textView_name.setText("F-16");
+            image.setImageResource(R.drawable.f16);
+            textView_info.setText(getInfo("jakisMysliwiec.txt"));
+        }
 
     }
 

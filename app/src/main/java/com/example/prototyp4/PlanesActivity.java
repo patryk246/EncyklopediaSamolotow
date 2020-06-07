@@ -55,4 +55,7 @@ public class PlanesActivity extends AppCompatActivity {
     public void mig15Clicked(View view){ startActivityWithName("mig15_gear");}
 
     public void martin244Clicked(View view){ startActivityWithName("martin244");}
+
+    public void f16Clicked(View view){ startActivityWithName("jakisMysliwiec");}
+    
 }
