@@ -7,22 +7,32 @@
     tools:context=".PlanesActivity">
 
     <Button
+        android:id="@+id/buttonSopwith"
+        android:layout_width="189dp"
+        android:layout_height="57dp"
+        android:onClick="sopwithClicked"
+        android:text="Sopwith"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpad11" />
+
+    <Button
         android:id="@+id/buttonSpad11"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
-        android:layout_marginStart="32dp"
         android:onClick="spad11Clicked"
         android:text="Spad XI"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSpitfire" />
+        app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTest" />
 
     <Button
         android:id="@+id/buttonSpitfire"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="158dp"
+        android:layout_height="54dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:onClick="spitfireClicked"
@@ -34,8 +44,8 @@
 
     <Button
         android:id="@+id/buttonTaube"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="154dp"
+        android:layout_height="49dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:onClick="taubeClicked"
@@ -59,17 +69,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <Button
         android:id="@+id/buttonCC2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/cc2"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
         android:onClick="cc2Clicked"
+        android:text="@string/cc2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonB787" />
 
@@ -77,9 +87,8 @@
         android:id="@+id/buttonAn24"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
         android:onClick="an24Clicked"
         android:text="@string/an24"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,12 +100,12 @@
         android:id="@+id/buttonF22"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/f22"
+        android:layout_marginStart="32dp"
         android:onClick="f22Clicked"
+        android:text="@string/f22"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonAn24" />
 
@@ -104,12 +113,12 @@
         android:id="@+id/buttonSpad13"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/spad13"
+        android:layout_marginStart="32dp"
         android:onClick="spad13Clicked"
+        android:text="@string/spad13"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonF22" />
 
@@ -117,9 +126,8 @@
         android:id="@+id/buttonTest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
         android:onClick="testClicked"
         android:text="test"
         app:layout_constraintEnd_toEndOf="parent"

@@ -49,4 +49,6 @@ public class PlanesActivity extends AppCompatActivity {
     public void spitfireClicked(View view){ startActivityWithName("spitfire");}
 
     public void spad11Clicked(View view){ startActivityWithName("spad11");}
+
+    public void sopwithClicked(View view){ startActivityWithName("sopwith");}
 }
