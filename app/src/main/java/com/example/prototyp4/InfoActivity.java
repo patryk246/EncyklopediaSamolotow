@@ -90,6 +90,11 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.rolandcii);
             textView_info.setText(getInfo("rolandcii.txt"));
         }
+        if(name.equals("mig15_gear")){
+            textView_name.setText("Mig-15");
+            image.setImageResource(R.drawable.mig15);
+            textView_info.setText(getInfo("mig15_gear.txt"));
+        }
 
         //helikoptery
         if(name.equals("uh1")){
