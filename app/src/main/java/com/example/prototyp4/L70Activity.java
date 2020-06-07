@@ -28,6 +28,10 @@ public class L70Activity extends AppCompatActivity {
         startActivityWithName("ah64");
     }
 
+    public void an24Clicked(View view) {
+        startActivityWithName("an24");
+    }
+
     public void md500Clicked(View view) {
         startActivityWithName("md500");
     }
