@@ -18,7 +18,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".NowActivity"></activity>
+        <activity android:name=".L70Activity" />
+        <activity android:name=".WW2Activity" />
+        <activity android:name=".WW1Activity" />
+        <activity android:name=".HelpActivity" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".HelicoptersActivity" />
         <activity android:name=".PlanesActivity" />

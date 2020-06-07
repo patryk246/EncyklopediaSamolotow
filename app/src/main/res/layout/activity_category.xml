@@ -7,29 +7,54 @@
     tools:context=".CategoryActivity">
 
     <Button
-        android:id="@+id/buttonPlanes"
+        android:id="@+id/button1WW"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/buttonPlanes"
-        android:onClick="planesClicked"
+        android:onClick="ww1Clicked"
+        android:text="@string/button1WW"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonHelicopters"
+        android:id="@+id/buttonWW2"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:onClick="helicoptersClicked"
-        android:text="@string/buttonHelicopters"
+        android:onClick="ww2Clicked"
+        android:text="@string/button2WW"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonPlanes" />
+        app:layout_constraintTop_toBottomOf="@+id/button1WW" />
 
+    <Button
+        android:id="@+id/button70s"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="l70Clicked"
+        android:text="@string/button70s"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWW2" />
+
+    <Button
+        android:id="@+id/buttonNow"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="nowClicked"
+        android:text="@string/buttonNow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button70s" />
 </androidx.constraintlayout.widget.ConstraintLayout>

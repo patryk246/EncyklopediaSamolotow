@@ -14,11 +14,20 @@ public class CategoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_category);
     }
 
-    public void planesClicked(View view) {
-        startActivity(new Intent(CategoryActivity.this, PlanesActivity.class));
+    public void ww1Clicked(View view) {
+        startActivity(new Intent(CategoryActivity.this, WW1Activity.class));
     }
 
-    public void helicoptersClicked(View view) {
-        startActivity(new Intent(CategoryActivity.this, HelicoptersActivity.class));
+    public void ww2Clicked(View view) {
+        startActivity(new Intent(CategoryActivity.this, WW2Activity.class));
     }
+
+    public void l70Clicked(View view) {
+        startActivity(new Intent(CategoryActivity.this, L70Activity.class));
+    }
+
+    public void nowClicked(View view) {
+        startActivity(new Intent(CategoryActivity.this, NowActivity.class));
+    }
+
 }
