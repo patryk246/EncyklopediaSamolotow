@@ -42,7 +42,7 @@ public class PlanesActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void testClicked(View view) { startActivityWithName(""); }
+    public void rolandciiClicked(View view) { startActivityWithName("rolandcii"); }
 
     public void taubeClicked(View view){ startActivityWithName("taube");}
 

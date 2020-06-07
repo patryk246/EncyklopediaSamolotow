@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/buttonSpitfire"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTest" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonRolandcii" />
 
     <Button
         android:id="@+id/buttonSpitfire"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTest" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonRolandcii" />
 
     <Button
         android:id="@+id/buttonB787"
@@ -123,13 +123,13 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonF22" />
 
     <Button
-        android:id="@+id/buttonTest"
+        android:id="@+id/buttonRolandcii"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:onClick="testClicked"
-        android:text="test"
+        android:onClick="rolandciiClicked"
+        android:text="Rolandcii"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
