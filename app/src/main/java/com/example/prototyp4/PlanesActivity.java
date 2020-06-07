@@ -60,4 +60,6 @@ public class PlanesActivity extends AppCompatActivity {
 
     public void gulfstreamClicked(View view){ startActivityWithName("gulfstream");}
 
+    public void gothag1Clicked(View view){ startActivityWithName("gothag1");}
+
 }

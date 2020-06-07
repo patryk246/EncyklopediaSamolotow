@@ -100,6 +100,21 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.martin244);
             textView_info.setText(getInfo("martin244.txt"));
         }
+        if(name.equals("jakisMysliwiec")){
+            textView_name.setText("F-16");
+            image.setImageResource(R.drawable.f16);
+            textView_info.setText(getInfo("jakisMysliwiec.txt"));
+        }
+        if(name.equals("gulfstream")){
+            textView_name.setText("Gulfstream G550");
+            image.setImageResource(R.drawable.gulfstream);
+            textView_info.setText(getInfo("gulfstream.txt"));
+        }
+        if(name.equals("gothag1")){
+            textView_name.setText("Gotha G1");
+            image.setImageResource(R.drawable.gothag1);
+            textView_info.setText(getInfo("gothag1.txt"));
+        }
 
         //helikoptery
         if(name.equals("uh1")){
@@ -127,17 +142,6 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.mi24);
             textView_info.setText(getInfo("mi24.txt"));
         }
-        if(name.equals("jakisMysliwiec")){
-            textView_name.setText("F-16");
-            image.setImageResource(R.drawable.f16);
-            textView_info.setText(getInfo("jakisMysliwiec.txt"));
-        }
-        if(name.equals("gulfstream")){
-            textView_name.setText("Gulfstream G550");
-            image.setImageResource(R.drawable.gulfstream);
-            textView_info.setText(getInfo("gulfstream.txt"));
-        }
-
     }
 
     public String getInfo(String name){
