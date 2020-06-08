@@ -130,6 +130,11 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.concorde);
             textView_info.setText(getInfo("concorde.txt"));
         }
+        if(name.equals("aeg_g4")){
+            textView_name.setText("AEG GIV");
+            image.setImageResource(R.drawable.aeg_g4);
+            textView_info.setText(getInfo("aeg_g4.txt"));
+        }
 
         //helikoptery
         if(name.equals("uh1")){
