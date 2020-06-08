@@ -48,7 +48,7 @@ public class InfoActivity extends AppCompatActivity {
         if(name.equals("cc2")){
             textView_name.setText("Campini Caproni CC.2");
             image.setImageResource(R.drawable.cc2);
-            textView_info.setText(getInfo("c22.txt"));
+            textView_info.setText(getInfo("cc2.txt"));
         }
         if(name.equals("an24")){
             textView_name.setText("Antonov An-24");

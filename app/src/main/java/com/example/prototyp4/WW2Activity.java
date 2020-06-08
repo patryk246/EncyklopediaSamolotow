@@ -29,7 +29,7 @@ public class WW2Activity extends AppCompatActivity {
     }
 
     public void c22Clicked(View view) {
-        startActivityWithName("c22");
+        startActivityWithName("cc2");
     }
 
     public void ho229Clicked(View view) {
