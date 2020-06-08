@@ -145,6 +145,16 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.antonov225);
             textView_info.setText(getInfo("antonov225.txt"));
         }
+        if(name.equals("cargoAircraft")){
+            textView_name.setText("Lockehedd C-130 Hercules");
+            image.setImageResource(R.drawable.lockeheed130);
+            textView_info.setText(getInfo("cargoAircraft.txt"));
+        }
+        if(name.equals("b17bomber")){
+            textView_name.setText("Boeing b-17 Flying Fortress");
+            image.setImageResource(R.drawable.b17bomber);
+            textView_info.setText(getInfo("b17bomber.txt"));
+        }
 
 
         //helikoptery
