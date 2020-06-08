@@ -49,7 +49,7 @@ public class WW1Activity extends AppCompatActivity {
     }
 
     public void sopwith3Clicked(View view) {
-        startActivityWithName("sopwith3");
+        startActivityWithName("sopwith");
     }
 
     public void spad13Clicked(View view) {
