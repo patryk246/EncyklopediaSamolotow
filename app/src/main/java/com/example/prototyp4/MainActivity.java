@@ -81,6 +81,13 @@ public class MainActivity extends AppCompatActivity {
             });
 
         animationButton = findViewById(R.id.button6);
+        String[] noAnimationNames = {"taube", "aeg_g4", "bristolf2b", "capronica5", "fe2b", "sopwith3", "spadxvi", "b17bomber", "ho229", "a10thunderbolt", "mig15_gear", "antonov225", "concorde", "gulfstream", "jakisMysliwiec"};
+        for (String noAnimation: noAnimationNames) {
+            if (name.equals(noAnimation)){
+                animationButton.setVisibility(View.GONE);
+                break;
+            }
+        }
         animationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
