@@ -165,6 +165,11 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.capronica5);
             textView_info.setText(getInfo("capronica5.txt"));
         }
+        if(name.equals("ho229")){
+            textView_name.setText("horten HO 229");
+            image.setImageResource(R.drawable.ho229);
+            textView_info.setText(getInfo("ho229.txt"));
+        }
 
 
         //helikoptery
