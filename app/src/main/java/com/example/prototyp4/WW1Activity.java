@@ -57,7 +57,7 @@ public class WW1Activity extends AppCompatActivity {
     }
 
     public void spadxviClicked(View view) {
-        startActivityWithName("spadxvi");
+        startActivityWithName("spad11");
     }
 
     public void taubeClicked(View view) {
