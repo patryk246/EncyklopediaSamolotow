@@ -160,6 +160,11 @@ public class InfoActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.bristolf2b);
             textView_info.setText(getInfo("bristolf2b.txt"));
         }
+        if(name.equals("capronica5")){
+            textView_name.setText("Caproni Ca.5");
+            image.setImageResource(R.drawable.capronica5);
+            textView_info.setText(getInfo("capronica5.txt"));
+        }
 
 
         //helikoptery
