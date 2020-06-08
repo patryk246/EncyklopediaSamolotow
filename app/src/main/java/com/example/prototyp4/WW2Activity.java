@@ -36,5 +36,5 @@ public class WW2Activity extends AppCompatActivity {
         startActivityWithName("ho229");
     }
 
-    public void supermarineSpitfireClicked(View view) { startActivityWithName("spitfire"); }
+    public void spitfireClicked(View view) { startActivityWithName("spitfire"); }
 }

@@ -33,9 +33,9 @@
     <string name="fokkerDr1">Fokker Dr.I</string>
     <string name="gothag1">Gotha G.I</string>
     <string name="rolandcii">LFG Roland C.II</string>
-    <string name="sopwith3">Sopwith Three-seater</string>
-    <string name="spadxvi">SPAD S.XI</string>
-    <string name="supermarineSpitfire">Supermarine Spitfire</string>
+    <string name="sopwith">Sopwith</string>
+    <string name="spad11">SPAD S.XI</string>
+    <string name="spitfire">Supermarine Spitfire</string>
     <string name="b17bomber">Boeing B-17 Flying Fortress</string>
     <string name="ho229">Horten Ho 229</string>
     <string name="a10thunderbolt">Fairchild A-10 Thunderbolt II</string>

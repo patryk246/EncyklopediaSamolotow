@@ -105,7 +105,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
                 android:onClick="sopwith3Clicked"
-                android:text="sopwith" />
+                android:text="@string/sopwith" />
 
             <Button
                 android:id="@+id/button16"
@@ -127,7 +127,7 @@
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="spadxviClicked"
-                android:text="@string/spadxvi" />
+                android:text="@string/spad11" />
 
             <Button
                 android:id="@+id/button18"
